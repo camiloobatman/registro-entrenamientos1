@@ -1,42 +1,52 @@
-# registro-entrenamientos
+# Registro de Entrenamientos
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación web desarrollada con Vue 3 y Vite para registrar entrenamientos y almacenarlos en Firebase Firestore.  
+El proyecto incluye despliegue en Firebase Hosting.
 
-## Recommended IDE Setup
+## Tecnologías utilizadas
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3
+- Vite
+- TypeScript
+- Firebase (Firestore y Hosting)
+- Node.js
 
-## Recommended Browser Setup
+## Instalación
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+1. Clonar el repositorio:
 
-## Type Support for `.vue` Imports in TS
+git clone https://github.com/camiloobatman/registro-entrenamientos1.git
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+2. Entrar a la carpeta del proyecto:
 
-## Customize configuration
+cd registro-entrenamientos1
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+3. Instalar dependencias:
 
-## Project Setup
-
-```sh
 npm install
-```
 
-### Compile and Hot-Reload for Development
+## Ejecución en entorno de desarrollo
 
-```sh
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
+## Build para producción
 
-```sh
 npm run build
-```
+
+## Despliegue en Firebase
+
+1. Iniciar sesión en Firebase:
+
+firebase login
+
+2. Desplegar la aplicación:
+
+firebase deploy
+
+## Enlace del repositorio
+
+https://github.com/camiloobatman/registro-entrenamientos1
+
+## Enlace de la aplicación desplegada
+
+(Aquí debes colocar la URL que te dio Firebase Hosting)
